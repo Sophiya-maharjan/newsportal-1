@@ -1,0 +1,22 @@
+body {
+    background-color: #eee;
+    padding-top: 95px;
+}
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 1.1em;
+}
+
+*[role="form"] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+
+@media (min-width: 768px)
+.col-sm-9 {
+    width: 73%;
+}
